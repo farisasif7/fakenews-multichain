@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Word lock/temp files and the superseded report
+~$*
+Fake_News_MultiChain_Report.docx
+
+# Generated at bootstrap (wallet addresses of YOUR local chain)
+roles.json
+
+# Never commit a MultiChain datadir or credentials
+mc/
+multichain.conf
+*.dat
